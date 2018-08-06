@@ -1,10 +1,12 @@
 keyterm,client_list_frequency,NIH_result_output
+next generation sequencing,,
+next-generation sequencing,,
+gext gen sequencing,,
  next-gen sequencing,31,1778
  RNA sequencing,14,6953
 RNAseq,17,4369
 RNA seq,,
 ribonucleic acid sequencing,,
- mouse,9,na
 mtDNAseq,8,na
 mtDNA seq,1,48
 mtDNA sequencing,na,69
@@ -31,8 +33,6 @@ smRNA seq,,
  smRNAseq,1,
  smRNA sequencing,1,
 smallRNA sequencing,1,
- c. elegans,1,
- eel,1,
 endometriosis,1,
  crohn's disease,1,
  fecal transplantation,1,
@@ -43,23 +43,17 @@ transposon seq,,
 tn seq,,
 tn sequencing,,
  blood,1,
- bird,1,
  autism,1,
 gene expression,1,
- Pig,1,
  IBD,1,
 mycobacterium,1,
  female health,1,
  microbial genetics,1,
- human,2,
-rat,1,
-microbiome,1,
 microbiome sequencing,1,
 genomics,1,
  regenerative medicine,1,
 developmental and regenerative biology,1,
 bacterial genetics,1,
- zebrafish,1,
  stem cell biology,1,
  species identification,1,
  saliva,1,
