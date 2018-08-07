@@ -1,0 +1,74 @@
+<!--template table, will update with all necessary columns..want to feed in all data from sqlite file-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Federal RePORTER Data</title>
+    <style>
+        /* .smaller {
+            font-size: 10px;
+        } */
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1> List of Data:</h1>
+<table class="table table-striped">
+
+        <thead>
+                <tr>
+                    <td>Agency</td>
+                    <td>Budget End Date</td>
+                    <td>Budget Start Date</td>
+                    <td>CFDA Code</td>
+                    <td>Department</td>
+                    <td>Fiscal Year</td>
+                    <td>Key Words</td>
+                    <td>Latitude</td>
+                    <td>Longitude</td>
+                    <td>Organization City</td>
+                    <td>Organization Country</td>
+                    <td>Organization Name</td>
+                    <td>Organization State</td>
+                    <td>Organization Zip</td>
+                    <td>Principal Investigator</td>
+                    <td>Project Abstract</td>
+                    <td>Project End Date</td>
+                    <td>Project Number</td>
+                    <td>Project Start Date</td>
+                    <td>Project Title</td>
+                    <td>Total Cost</td>
+                </tr>
+            </thead>
+            <tbody>
+    {% for item in items %}
+   
+    <tr>
+
+        <td>{{ item.agency }}</td>
+        <td>{{ item.budget"&nbsp;"end"&nbsp;"date }}</td>
+        <td>{{ item.budget_start_date }}</td>
+        <td>{{ item.cfda_code }}</td>
+        <td>{{ item.department }}</td>
+        <td>{{ item.fiscal_year }}</td>
+        <td>{{ item.key words }}</td>
+        <td>{{ item.latitude }}</td>
+        <td>{{ item.longitude }}</td>
+        <td>{{ item.organization_city }}</td>
+        <td>{{ item.organization_country }}</td>
+        <td>{{ item.organization_name }}</td>
+        <td>{{ item.organization_state }}</td>
+        <td>{{ item.organization_zip }}</td>
+        <td>{{ item.principal_investigator }}</td>
+        <td>{{ item.project_abstract }}</td>
+        <td>{{ item.project_end_date }}</td>
+        <td>{{ item.project_number }}</td>
+        <td>{{ item.project_start_date }}</td>
+        <td>{{ item.project_title }}</td>
+        <td>{{ item.total_cost }}</td> 
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+</body>
+</html>
